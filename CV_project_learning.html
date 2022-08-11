@@ -39,6 +39,49 @@
         <!--Lien-->
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Lien</a>
         <p>Le 2eme va vous étonner : <a href="https://fr.wikipedia.org/wiki/Rickroll#:~:text=Le%20rickroll%20est%20un%20ph%C3%A9nom%C3%A8ne,le%20texte%20qu'il%20consulte.">Ici</a></p>
+        <p>Lien vers mon CV : <a href="CV_project.html">Mon CV</a></p> <!--Lien vers une page du même dossier (ne pas oublier de mettre le nom du lien après le lien...)-->
+        <!-- Si on veut faire un lien vers une page dans un sous dossier : <a href="sousdossier/CV_project.html">
+            Si on veut faire un lien vers une page contenue dans un dossier parent : <a href="../CV_project.html">-->
+
+        <!--Ancre-->
+        <p><h3 id="ancre1">Test ancre</h3></p> <!--Repère-->
+        <a href="#ancre1">Aller vers l'ancre</a> <!--Lien permettant d'y accéder-->
+        <!--On ne ferme pas la balise à gauche de id ou href sinon ça ne fonctionne pas-->
+        <!--On peut faire un lien vers une ancre d'une autre page web : <a href="CV_project.html#Parcours Pro"> -->
+
+        <!--Infobulle sur un lien-->
+        <p>Vidéo d'utilité publique : <a href="https://www.youtube.com/watch?v=fQVhppRP4Wo&ab_channel=SaveAFox"title="Infobulle">Vidéo d'utilité publique</a></p>
+
+        <!--Lien dans une nouvelle fenêtre-->
+        <p>Vidéo d'utilité publique qui ouvre un nouvel onglet : <a href="https://www.youtube.com/watch?v=fQVhppRP4Wo&ab_channel=SaveAFox"title="Infobulle"target="_blank">Vidéo d'utilité publique</a></p>
+        
+        <!--Lien pour envoyer un mail-->
+        <p><a href="mailto:manon.diana@icloud.com">Envoyez-moi un e-mail !</a></p>
+
+        <!--Lien pour DL un fichier-->
+        <p><a href="testFile.zip">Télécharger le fichier</a></p>
+
+        <!--Insersion d'image-->
+        <!--Doit toujours être dans un paragraphe-->
+        <!-- <p><img src="testImage.jpg" alt="wow" title="Quel joli animal"/></p> -->
+        
+        <!--Image cliquable-->
+        <p>
+            Vous souhaitez voir l'image dans sa taille d'origine ? Cliquez dessus ! (et en plus elle s'ouvre dans un nouvel onglet ;) )<br />
+            <a href="testImageBig.jfif" target="_blank"><img src="testImage.jpg" alt="wow" title="Cliquez pour agrandir" /></a>
+        </p>
+
+        <!--Figure-->
+        <!-- Si on fait d'une image une figure, on ne doit pas la mettre obligatoirement dans un paragraphe-->
+        <figure>
+            <img src="testImage.jpg" alt="chat" />
+            <figcaption>Le chat en figure</figcaption>
+        </figure>
+        <!--Image ou figure ? 
+        Si l'image n'apporte aucune information (c'est juste une illustration pour décorer) : placez l'image dans un paragraphe.
+        Si elle apporte une information : placez l'image dans une figure. -> indique au pc que l'image a du sens
+        Une figure peut se composer de plusieurs images.
+        -->
 
     </body>
 
