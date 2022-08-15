@@ -1,0 +1,14 @@
+
+p /* balise p pour mettre la couleur bleu sur tous les paragraphes*/
+{
+    color: rgb(55, 114, 55); /*propriété + valeur*/
+}
+
+h1,em /*On peut mettre plusieurs balises pour éviter la répétition de code*/
+{
+    color:rgb(0, 63, 0);
+}
+
+ul{
+    color: rgb(20, 114, 151);
+}
