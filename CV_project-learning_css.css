@@ -12,3 +12,81 @@ h1,em /*On peut mettre plusieurs balises pour éviter la répétition de code*/
 ul{
     color: rgb(20, 114, 151);
 }
+
+.fable{
+    color: brown;
+}
+
+.personnage{
+    color :darkorange;
+}
+
+/*
+.class
+{
+
+}
+
+#id
+{
+
+}
+
+____________________________________________________________________________________________________________________
+SELECTEURS :
+Selecteur universel : 
+*
+{
+
+}
+
+____________________________________________________________________________________________________________________
+Une balise contenue dans une autre : Sélectionne toutes les balises <em>  situées à l'intérieur d'une balise <h3>  
+h3 em
+{
+
+}
+code html correspondant : <h3>Titre avec <em>texte important</em></h3>
+
+____________________________________________________________________________________________________________________
+Balise qui en suit une autre : Sélectionne la première balise <p>  située après un titre <h3>  .
+h3 + p
+{
+
+}
+code html correspondant :
+<h3>Titre</h3>
+<p>Paragraphe</p>
+
+____________________________________________________________________________________________________________________
+balise qui possède un attribut : Sélectionne tous les liens <a>  qui possèdent un attribut title  .
+a[title]
+{
+
+}
+code html correspondant :
+<a href="http://site.com" title="Infobulle">
+
+____________________________________________________________________________________________________________________
+balise, attribut et valeur exacte : Idem, mais l'attribut doit en plus avoir exactement pour valeur « Cliquez ici ».
+a[title="Cliquez ici"]
+{
+
+}
+code html correspondant :
+<a href="http://site.com" title="Cliquez ici">
+
+____________________________________________________________________________________________________________________
+balise, attribut et valeur : Idem, l'attribut doit cette fois contenir dans sa valeur le mot « ici »
+a[title*="ici"]
+{
+
+}
+code html correspondant :
+<a href="http://site.com" title="Quelque part par ici">
+
+____________________________________________________________________________________________________________________
+
+Liste des selecteurs : https://www.w3.org/Style/css3-selectors-updates/WD-css3-selectors-20010126.fr.html#selectors
+
+*/
