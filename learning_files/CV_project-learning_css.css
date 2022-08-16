@@ -1,12 +1,35 @@
 
+/*définir une nouvelle police, elle doit être dans le même dossier ou sous-dossier que le fichier css*/
+/*L'idéal est de proposer plusieurs formats pour la police : le navigateur téléchargera celui qu'il sait lire*/
+@font-face
+{
+        font-family: 'Ostrich';
+        src: url('font/Ostrich/ostrich-regular.ttf'),
+             url('font/Ostrich/OstrichSans-Light.otf');
+            /*ici on pourrait rajouter une autre extension de la police*/
+}
+
 p /* balise p pour mettre la couleur bleu sur tous les paragraphes*/
 {
     color: rgb(55, 114, 55); /*propriété + valeur*/
+    font-size: 19px; /* Paragraphes de 19 pixels : taille absolue */
+    /*pour qu'une police s'affiche correctement, il faut que tous les internautes l'aient*/
+    font-family: 'Calibri', "Trebuchet MS", 'Verdana', 'sans-serif'; /* => mets la police calibri, si le navigateur ne l'a pas, mets en Tebuchet, etc..*/
+    /*On peut utiliser des polices personalisées mais il faut la f aire télécharger par le navigateur de utilisateur*/
+    /*Formats de polices: 
+    .ttf  : TrueType Font. Fonctionne sur IE9 et tous les autres navigateurs
+    .eot  : Embedded OpenType. Fonctionne sur Internet Explorer uniquement, toutes versions. Ce format est propriétaire, produit par Microsoft
+    .otf  : OpenType Font. Ne fonctionne pas sur Internet Explorer
+    .svg  : SVG Font. Le seul format reconnu sur les iPhone et iPad pour le moment
+    .woff  : Web Open Font Format. Nouveau format conçu pour le Web, qui fonctionne sur IE9 et tous les autres navigateurs.
+    */
 }
 
 h1,em /*On peut mettre plusieurs balises pour éviter la répétition de code*/
 {
     color:rgb(0, 63, 0);
+    font-size: 29px;
+    font-family: 'Ostrich', Arial, serif;
 }
 
 ul{
