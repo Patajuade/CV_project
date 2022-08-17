@@ -9,9 +9,33 @@
             /*ici on pourrait rajouter une autre extension de la police*/
 }
 
-p /* balise p pour mettre la couleur bleu sur tous les paragraphes*/
+/*couleur du fond et du texte, apparence générale de la page*/
+body{
+    /*background-color: rgb(43, 43, 43);
+    background-image: url("background.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;*/
+    
+    /*On peut aussi l'écrire de cette façon : (c'est mieux) */
+    background: rgb(43, 43, 43) url("background.jpg") fixed no-repeat center;
+    /*On peut mettre plusieurs images de fond : 
+    background: url("soleil.png") fixed no-repeat top right, url("neige.png") fixed;
+    la 1ere image de la liste sera placée par dessus les autres
+    */
+
+    color: rgb(255, 115, 0);
+}
+
+/*On change le comportement du surlignage*/
+mark{
+    background-color: blueviolet;
+    color: blue;
+}
+
+p /* balise p pour mettre la couleur noire sur tous les paragraphes*/
 {
-    color: rgb(55, 114, 55); /*propriété + valeur*/
+    color: rgb(0, 0, 0); /*propriété + valeur*/
     font-size: 19px; /* Paragraphes de 19 pixels : taille absolue */
     /*pour qu'une police s'affiche correctement, il faut que tous les internautes l'aient*/
     font-family: 'Calibri', "Trebuchet MS", 'Verdana', 'sans-serif'; /* => mets la police calibri, si le navigateur ne l'a pas, mets en Tebuchet, etc..*/
@@ -23,26 +47,39 @@ p /* balise p pour mettre la couleur bleu sur tous les paragraphes*/
     .svg  : SVG Font. Le seul format reconnu sur les iPhone et iPad pour le moment
     .woff  : Web Open Font Format. Nouveau format conçu pour le Web, qui fonctionne sur IE9 et tous les autres navigateurs.
     */
+    text-align: justify;
 }
 
 h1,em /*On peut mettre plusieurs balises pour éviter la répétition de code*/
 {
-    color:rgb(0, 63, 0);
+    color:rgb(175, 0, 0);
     font-size: 29px;
     font-family: 'Ostrich', Arial, serif;
 }
 
 ul{
     color: rgb(20, 114, 151);
+    background-color: rgba(255,0,0,0.6); /*Fond avec opacité 60%*/
 }
 
 .fable{
-    color: brown;
+    color: rgb(180, 121, 121);
+    font-size: 30px;
+}
+
+.imagefable{
+    float:right;
 }
 
 .personnage{
     color :darkorange;
+    font-weight: bold;
 }
+
+.dessous{
+    clear:both;
+}
+
 
 /*
 .class
