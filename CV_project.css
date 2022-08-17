@@ -1,15 +1,38 @@
-li{
 
+@font-face
+{
+        font-family: 'Ostrich';
+        src: url('font/Ostrich/ostrich-regular.ttf'),
+             url('font/Ostrich/OstrichSans-Light.otf');
+}
+
+@font-face {
+    font-family: 'Greyscale';
+    src : url('font/Greyscale/Greyscale_Basic_Regular.ttf')
+}
+
+body{
+    background: rgb(87, 87, 87);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.myName{
+    font-family: Ostrich, Arial, serif;
+    font-size: 50px;
+}
+
+h2{
+    font-family: Greyscale, Arial, serif;
 }
 
 .date{
-font-weight: bold;
+    font-weight: bold;
 }
 
-.nom{
-
+.title{
+    font-weight: bold;
 }
 
-.lieu{
-font-style: italic;
+.place{
+    font-style: italic;
 }
