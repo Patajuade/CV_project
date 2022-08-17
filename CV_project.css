@@ -21,8 +21,15 @@ body{
     font-size: 50px;
 }
 
+.whatISeekTitle{
+    font-family: Greyscale, Arial, serif;
+    font-size: 40px;
+}
+
 h2{
     font-family: Greyscale, Arial, serif;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
 }
 
 .date{
