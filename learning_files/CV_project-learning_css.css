@@ -66,6 +66,15 @@ ul{
     color: rgb(180, 121, 121);
     font-size: 30px;
     border: 3px blueviolet double; /*Les bordures ont 3 valeurs*/
+    border-radius: 10px;
+    /*On peut aussi : 
+    préciser la forme de l'arrondi pour chaque coin : border-radius: 10px 5px 10px 5px;
+    affiner l'arrondi de nos angles en créant des courbes elliptiques : border-radius: 20px / 10px;
+    */
+    box-shadow: 6px 6px 5px rgb(101, 31, 167); /*la 3eme valeur est pour addoucir l'ombre. on peut aussi rajouter une 5eme valeur "inset", pour donner un effet enfoncé*/
+    text-shadow: 2px 2px 4px black;
+    text-align: justify;
+
 }
 
 .imagefable{
@@ -79,6 +88,39 @@ ul{
 
 .dessous{
     clear:both;
+}
+
+a /* Liens par défaut (non survolés) */
+{
+   text-decoration: none;
+   color: red;
+   font-style: italic;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: green;
+}
+
+a:active /* Au moment du clic */
+{
+    background-color: #ec1492;
+}
+
+a:focus /* Quand le lien a été sélectionné (en appuyant sur tab par exemple) */
+{
+    background-color: #FFCC66;
+}
+
+a:visited /* Quand le visiteur a déjà vu la page concernée */
+{
+    color: #AAA;
+}
+
+p:hover /* Quand on pointe sur un paragraphe */
+{
+    color: goldenrod;
 }
 
 
