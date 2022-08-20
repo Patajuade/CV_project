@@ -15,6 +15,8 @@ body{
     background: rgb(87, 87, 87);
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: justify;
+    width: 50%;
+    padding: 12px;
 }
 
 .myName{
@@ -31,6 +33,8 @@ h2{
     font-family: Greyscale, Arial, serif;
     border-top: 2px black solid;
     border-bottom: 2px black solid;
+    
+    margin: 25px; /* Marge extérieure*/
 }
 
 .date{

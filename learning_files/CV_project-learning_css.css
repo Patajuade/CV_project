@@ -75,6 +75,20 @@ ul{
     text-shadow: 2px 2px 4px black;
     text-align: justify;
 
+    width: 50%; /*Largeur du paragraphe, on peut aussi mettre max ou min*/
+
+    /*marges avec padding : marge interieure et margin : marge extérieure
+    !!! elles s'appliquent aux 4 cotés du bloc
+    Pour plus de précision on peut utiliser margin-top, margin-bottom, etc et idem pour padding
+    */
+    
+    padding: 20px;
+    margin: 100px;
+
+    /*margin-top; 20px;*/
+    /*margin: 2px 0 3px 1px;*/
+
+
 }
 
 .imagefable{
@@ -84,6 +98,31 @@ ul{
 .personnage{
     color :darkorange;
     font-weight: bold;
+}
+
+.blocTestCentre{
+    /*2 paramètres indispensables pour centrer : */
+    width:50%;
+    margin:auto;
+
+    border: 3px blueviolet double;
+
+    padding: 12px;
+    margin-bottom: 20px;
+
+    height: 200px;
+    overflow: scroll;
+
+}
+
+.motTropLong{
+    width:25%;
+    margin:auto;
+    border: 3px rgb(226, 43, 43) double;
+    padding: 12px;
+    margin-bottom: 20px;
+
+    word-wrap: break-word;
 }
 
 .dessous{
