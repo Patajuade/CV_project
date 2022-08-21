@@ -14,19 +14,25 @@
     <body>
         <p><strong>Work in progress</strong></p>
 
-        <div><h1 class="myName">Manon CANAVAGGIO-DIANA</h1></div>
+        <div>
+            <h1 class="myName">Manon CANAVAGGIO-DIANA</h1>
+        </div>
 
         <div class="whatISeekTitle">Stage de fin d'étude</div>
 
-        <div class="summaryContainer"><h2>Sommaire</h2>
-            <a href="#ancreInf">Informations Générales</a>
-            <a href="#ancreEmpSta">Emplois / Stages</a>
-            <a href="#ancreSco">Scolarité</a>
-            <a href="#ancreCompLang">Compétences / Languages</a>
-            <a href="#ancreProj">Projets</a>
-        </div>
+        <nav id="summaryContainer">
+            <h2>Sommaire</h2>
+            <ul>
+                <li><a href="#ancreInf">Informations Générales</a></li>
+                <li><a href="#ancreEmpSta">Emplois / Stages</a></li>
+                <li><a href="#ancreSco">Scolarité</a></li>
+                <li><a href="#ancreCompLang">Compétences / Languages</a></li>
+                <li><a href="#ancreProj">Projets</a></li>
+            </ul>
+        </nav>
 
-        <div><h2 id="ancreInf">Infos générales</h2>
+        <div id="infContainer">
+            <h2 id="ancreInf">Infos générales</h2>
             <ul>
                 <li>24 ans</li>
                 <li>Permis B</li>
@@ -38,7 +44,7 @@
             </ul>
         </div>
 
-        <div>
+        <div id="EmpStaContainer">
             <h2 id="ancreEmpSta" >Emplois / Stages</h2>
             <ul>
                 <li>
@@ -59,7 +65,8 @@
             </ul>
         </div>
         
-        <div><h2 id="ancreSco">Scolarité</h2>
+        <div id="ScoContainer">
+            <h2 id="ancreSco">Scolarité</h2>
             <ul>
                 <li>
                     <div class="date">Septembre 2020 - Juillet 2023</div>
@@ -89,7 +96,8 @@
             </ul>
         </div> 
 
-        <div><h2 id="ancreCompLang">Compétences / Langages</h2>
+        <div id="CompLangContainer">
+            <h2 id="ancreCompLang">Compétences / Langages</h2>
             <ul>
                 <li>C#</li>
                 <li>C++</li>
@@ -108,7 +116,8 @@
             </ul>
         </div>
 
-        <div><h2 id="ancreProj">Projets</h2>
+        <div id="ProjContainer">
+            <h2 id="ancreProj">Projets</h2>
             <ul>
                 <li>Jeu unity C#</li>
                 <li>Jeu de cartes C++</li>
@@ -129,4 +138,5 @@
     - Faire des liens vers les projets gitHub
     - Faire une version anglais/français
     - Faire une timeline
+    - Tout englober dans un seul container et faire de chaque partie un élément ?
 -->
