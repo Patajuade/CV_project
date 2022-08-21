@@ -15,18 +15,32 @@ body{
     background: rgb(87, 87, 87);
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: justify;
-    width: 50%;
-    padding: 12px;
+    /*width: 50%;
+    padding: 12px;*/
 }
 
 .myName{
+    display: flex;
     font-family: Ostrich, Arial, serif;
-    font-size: 50px;
+    font-size: 60px;
+    justify-content: center;
 }
 
 .whatISeekTitle{
+    display: flex;
     font-family: Greyscale, Arial, serif;
     font-size: 40px;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+.summary{
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10%;
 }
 
 h2{

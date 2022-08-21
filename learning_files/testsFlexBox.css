@@ -1,0 +1,6 @@
+#conteneur
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; /*les blocs vont à la ligne quand ils n'ont plus de place*/
+}
