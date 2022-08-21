@@ -34,11 +34,11 @@ body{
     margin-bottom: 10%;
 }
 
-.summary{
+.summaryContainer{
     display : flex;
-    flex-direction: column;
+    flex-direction: column; /*alignement sur axe primaire*/
     justify-content: center;
-    align-items: center;
+    align-items: center; /*alignement sur axe secondaire*/
     text-align: center;
     margin-bottom: 10%;
 }
