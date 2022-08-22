@@ -53,6 +53,10 @@ h2{
     padding: 25px; /* Marge extérieure*/
 }
 
+h3{
+    font-family: Greyscale, Arial, serif;
+}
+
 .date{
     font-weight: bold;
 }
@@ -65,37 +69,46 @@ h2{
     font-style: italic;
 }
 
-#infContainer{
+#infContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 #EmpStaContainer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 #ScoContainer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 #CompLangContainer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 #ProjContainer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
+}
+
+.ProjListElement{
+    margin-left: 10%;
+    /*margin-top: -5%;*/
+}
+
+.ProjListElement:nth-child(3){
+    font-style: white;
 }
