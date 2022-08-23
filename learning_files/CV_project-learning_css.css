@@ -7,7 +7,27 @@
         src: url('font/Ostrich/ostrich-regular.ttf'),
              url('font/Ostrich/OstrichSans-Light.otf');
             /*ici on pourrait rajouter une autre extension de la police*/
+            
+        /*On peut aller sur https://www.fontsquirrel.com/tools/webfont-generator et générer tous les formats dune police à partir d'un .tts
+        @font-face {
+    font-family: 'ostrich_sansmedium';
+    src: url('ostrich-regular-webfont.woff2') format('woff2'),
+         url('ostrich-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+        }
+        */
 }
+
+/*
+bloc page est un bloc englobant toute la page qu'on définira avec div, on peut définir ses dimensions
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+*/
 
 /*couleur du fond et du texte, apparence générale de la page*/
 body{
@@ -60,6 +80,12 @@ h1,em /*On peut mettre plusieurs balises pour éviter la répétition de code*/
 ul{
     color: rgb(20, 114, 151);
     background-color: rgba(255,0,0,0.6); /*Fond avec opacité 60%*/
+}
+
+li{
+    font-size: 11px;
+    /*list-style-type: none; permet de retirer l'image de la puce*/
+    /*list-style-image permet de changer l'image de la puce*/
 }
 
 .fable{

@@ -45,10 +45,13 @@ body{
 }
 
 h2{
+    text-transform: uppercase;
     font-family: Greyscale, Arial, serif;
     border-top: 2px black solid;
     border-left: 2px black solid;
     border-bottom: 2px black solid;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
     
     padding: 25px; /* Marge extérieure*/
 }
@@ -69,35 +72,7 @@ h3{
     font-style: italic;
 }
 
-#infContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 5%;
-}
-
-#EmpStaContainer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 5%;
-}
-
-#ScoContainer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 5%;
-}
-
-#CompLangContainer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 5%;
-}
-
-#ProjContainer{
+#infContainer, #EmpStaContainer, #ScoContainer, #CompLangContainer, #ProjContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

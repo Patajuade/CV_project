@@ -48,6 +48,7 @@
         <p>Ceci est un paragraphe avec un retour à la ligne </br>
             je reste dans le même paragraphe si je fais ça, ça saute pas de ligne <!--mettre plusieurs balises br d'affilée est une mauvaise pratique -->
         </p>
+        <!--Les balises <br /> doivent se trouver à l'intérieur d'un paragraphe-->
         <p>Attention, mot important : <em>mot important</em></p>
         <p>Attention, mot encore plus important : <strong>mot encore plus important</strong></p> <!--em et strong disent juste au navigateur que ce sont des mots importants, mais ne sont pas gras ou italique à proprement parler. Elles indiquent le SENS du texte et non sa forme. -->
         <!--on pourra choisir en css comment afficher ces mots importants, autrement qu'en gras ou italique. -->
@@ -74,6 +75,7 @@
         <p>Lien vers mon CV : <a href="CV_project.html">Mon CV</a></p> <!--Lien vers une page du même dossier (ne pas oublier de mettre le nom du lien après le lien...)-->
         <!-- Si on veut faire un lien vers une page dans un sous dossier : <a href="sousdossier/CV_project.html">
             Si on veut faire un lien vers une page contenue dans un dossier parent : <a href="../CV_project.html">-->
+        <!-- IMPORTANT : si les liens comportent des &  , on doit remplacer par le code &amp;  pour éviter toute confusion au navigateur-->
 
         <!--Ancre-->
         <p><h3 id="ancre1">Test ancre</h3></p> <!--Repère-->
@@ -194,6 +196,13 @@
 
         </div>
         
+        <!--FLEXBOX
+        Voir projet directement
+        On aurait aussi pu utiliser le float mais ça ne se fait plus
+        -->
+
+        <!-- Avec display on peut changer le type d'un élément, le cacher (et le faire réaparaître avec js)
+        display : none-->
 
     </body>
 
