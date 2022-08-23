@@ -22,7 +22,7 @@ body{
 .myName{
     display: flex;
     font-family: Ostrich, Arial, serif;
-    font-size: 60px;
+    font-size: 50px;
     justify-content: center;
 }
 
