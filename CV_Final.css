@@ -1,0 +1,46 @@
+
+body{
+    background: rgb(43, 43, 43) url("images/background.jpg") fixed no-repeat center;
+}
+
+header{
+    background-color: rgb(35, 29, 36);
+    color: rgb(212, 202, 192);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.name{
+    text-align: center;
+    color: rgb(212, 202, 192);
+    font-size: 40px;
+}
+
+.whatIAm{
+    text-align: center;
+    color: rgb(212, 202, 192);
+    font-style: italic;
+    font-size: 30px;
+}
+
+.whatISeek{
+    text-align: center;
+    color: rgb(212, 202, 192);
+    font-size: 20px;
+}
+
+#mainBox{
+    background-color: rgb(212, 202, 192);
+    margin-top: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    min-height: 100vh;
+}
+
+footer{
+    background-color: rgb(35, 29, 36);
+    margin-top: auto;
+    
+}
