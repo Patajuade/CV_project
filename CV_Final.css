@@ -66,21 +66,36 @@ table {
 
 }
 
+@font-face {
+    font-family: 'jenriv_titlingregular';
+    src: url('font/jenriv/JenrivTitling-Regular.otf');
+}
+
 @font-face{
     font-family: 'open-sans-condensed';
     src: url('font/open-sans-condensed/OpenSans-CondLight.ttf');
 }
 
 @font-face{
-    font-family: 'montserrat';
+    font-family: 'montserrat-light';
     src:url('font/montserrat/Montserrat-Light.otf');
+}
+
+@font-face{
+    font-family: 'montserrat_light_italic';
+    src:url('font/montserrat/Montserrat-LightItalic.otf');
+}
+
+@font-face{
+    font-family: 'montserrat_regular';
+    src:url('font/montserrat/Montserrat-Regular.otf');
 }
 
 body{
     background: rgb(43, 43, 43) url("images/background.jpg") fixed no-repeat center;
-    color :rgb(59, 48, 48);
+    color : rgb(35, 29, 36);
     text-align: justify;
-    font-family: 'montserrat',Arial, Helvetica, sans-serif;
+    font-family: 'montserrat-light',Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
 
@@ -97,7 +112,7 @@ header{
 }
 
 h2{
-    font-family: jenriv_titlinglight, Arial, Helvetica, sans-serif;
+    font-family: 'jenriv_titlingregular', Arial, Helvetica, sans-serif;
     font-size: 30px;
     color : rgb(73, 25, 25);
     margin-bottom: 0.5rem;
@@ -105,7 +120,7 @@ h2{
 }
 
 h3{
-    font-family: jenriv_titlinglight, Arial, Helvetica, sans-serif;
+    font-family: 'jenriv_titlingregular', Arial, Helvetica, sans-serif;
     font-size: 15px;
     color : rgb(73, 25, 25);
     padding-top: 0.5rem;
@@ -123,7 +138,7 @@ li{
 }
 
 #name{
-    font-family: jenriv_titlingbold, Arial, Helvetica, sans-serif;
+    font-family: 'jenriv_titlingbold', Arial, Helvetica, sans-serif;
     text-align: center;
     color: rgb(212, 202, 192);
     font-size: 50px;
@@ -138,7 +153,7 @@ li{
 }
 
 #whatISeek{
-    font-family: jenriv_titlinglight, Arial, Helvetica, sans-serif;
+    font-family: 'jenriv_titlinglight', Arial, Helvetica, sans-serif;
     text-align: center;
     color: rgb(212, 202, 192);
     font-size: 20px;
@@ -211,18 +226,19 @@ h2 a:hover{
 }
 
 .date{
-    font-family: jenriv_titlingbold, Arial, Helvetica, sans-serif;
+    font-family: 'jenriv_titlingbold', Arial, Helvetica, sans-serif;
     color : rgb(73, 25, 25);
     font-size: 15px;
 }
 
 .title{
-    font-family: jenriv_titlinglight, Arial, Helvetica, sans-serif;
+    font-family: 'jenriv_titlingregular', Arial, Helvetica, sans-serif;
     color : rgb(73, 25, 25);
 }
 
 .place{
-    font-style: italic;
+    font-family: 'montserrat_light_italic', Arial, Helvetica, sans-serif;
+    font-size: 12px;
 }
 
 footer{
