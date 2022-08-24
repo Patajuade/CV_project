@@ -47,26 +47,57 @@ table {
 	border-spacing: 0;
 }
 
+/*-------------------------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'jenriv_titlingbold';
+    src: url('font/jenriv/JenrivTitling-Bold.otf') format('woff2'),
+         url('font/jenriv/JenrivTitling-Bold.otf') format('woff');
+         font-weight: normal;
+         font-style: normal;
+
+}
+@font-face {
+    font-family: 'jenriv_titlinglight';
+    src: url('font/jenriv/JenrivTitling-LightItalic.otf') format('woff2'),
+         url('font/jenriv/JenrivTitling-LightItalic.otf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face{
+    font-family: 'open-sans-condensed';
+    src: url('font/open-sans-condensed/OpenSans-CondLight.ttf');
+}
+
+@font-face{
+    font-family: 'montserrat';
+    src:url('font/montserrat/Montserrat-Light.otf');
+}
+
 body{
     background: rgb(43, 43, 43) url("images/background.jpg") fixed no-repeat center;
     color :rgb(59, 48, 48);
     text-align: justify;
+    font-family: 'montserrat',Arial, Helvetica, sans-serif;
+    font-size: 13px;
 }
 
 header{
+    position: relative;
     background-color: rgb(35, 29, 36);
     color: rgb(212, 202, 192);
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    margin: 0 0 0px 0; /*top right bottom left*/
+    flex-wrap: nowrap;
     padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 4rem;
+    flex-direction: column;
 }
 
-
-
 h2{
+    font-family: jenriv_titlinglight, Arial, Helvetica, sans-serif;
     font-size: 30px;
     color : rgb(56, 28, 28);
     margin-bottom: 0.5rem;
@@ -75,6 +106,7 @@ h2{
 ul{
     /*list-style-image: url(images/list_style.png);*/
     list-style : square;
+    margin-left: 1rem;
 }
 
 li{
@@ -82,27 +114,30 @@ li{
 }
 
 .networkImages{
-    background-color: antiquewhite;
     margin: auto;
     display: flex;
-    justify-content: center;
-    text-align: center;
+    justify-content:space-between;
+    width: 5rem;
+    
 }
 
 .name{
+    font-family: jenriv_titlingbold, Arial, Helvetica, sans-serif;
     text-align: center;
     color: rgb(212, 202, 192);
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .whatIAm{
+    font-family: 'jenriv_titlinglight', Arial, Helvetica, sans-serif;
     text-align: center;
     color: rgb(212, 202, 192);
-    font-style: italic;
     font-size: 30px;
+    margin-bottom: 2rem;
 }
 
 .whatISeek{
+    font-family: jenriv_titlinglight, Arial, Helvetica, sans-serif;
     text-align: center;
     color: rgb(212, 202, 192);
     font-size: 20px;
@@ -111,18 +146,32 @@ li{
 #mainBox{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     background-color: rgb(212, 202, 192);
     /*margin: 0 25rem 0 25rem; /*top right bottom left*/
-    max-width: 65rem;
+    max-width: 60rem;
     min-width: 50rem;
     min-height: 100vh;
     margin: auto;
-
+    padding-top: 4rem;
 }
 
-#AboutSection, #InfoSection, #ScoSection, #EmpStaSection, #LangSection{
-    padding: 2rem 5rem 2rem 5rem;
-    width: 20rem;
+#ContactSection, #InfoSection, #ScoSection, #EmpStaSection, #CompSection, #LangSection{
+    padding: 2rem 5rem 2rem 5rem; /*top right bottom left*/
+    width: 15rem;
+    
+}
+
+#AboutSection{
+    padding: 2rem 6rem 2rem 6rem;
+}
+
+.place{
+    font-style: italic;
+}
+
+.date{
+    font-weight: bold;
 }
 
 footer{
