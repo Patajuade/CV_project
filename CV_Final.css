@@ -81,7 +81,7 @@ body{
     color :rgb(59, 48, 48);
     text-align: justify;
     font-family: 'montserrat',Arial, Helvetica, sans-serif;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 header{
@@ -99,8 +99,17 @@ header{
 h2{
     font-family: jenriv_titlinglight, Arial, Helvetica, sans-serif;
     font-size: 30px;
-    color : rgb(56, 28, 28);
+    color : rgb(73, 25, 25);
     margin-bottom: 0.5rem;
+    
+}
+
+h3{
+    font-family: jenriv_titlinglight, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color : rgb(73, 25, 25);
+    padding-top: 0.5rem;
+    border-top: 1px rgb(73, 25, 25) solid;
 }
 
 ul{
@@ -113,22 +122,14 @@ li{
     margin-bottom: 0.5rem;
 }
 
-.networkImages{
-    margin: auto;
-    display: flex;
-    justify-content:space-between;
-    width: 5rem;
-    
-}
-
-.name{
+#name{
     font-family: jenriv_titlingbold, Arial, Helvetica, sans-serif;
     text-align: center;
     color: rgb(212, 202, 192);
     font-size: 50px;
 }
 
-.whatIAm{
+#whatIAm{
     font-family: 'jenriv_titlinglight', Arial, Helvetica, sans-serif;
     text-align: center;
     color: rgb(212, 202, 192);
@@ -136,7 +137,7 @@ li{
     margin-bottom: 2rem;
 }
 
-.whatISeek{
+#whatISeek{
     font-family: jenriv_titlinglight, Arial, Helvetica, sans-serif;
     text-align: center;
     color: rgb(212, 202, 192);
@@ -148,17 +149,18 @@ li{
     flex-wrap: wrap;
     justify-content: center;
     background-color: rgb(212, 202, 192);
-    /*margin: 0 25rem 0 25rem; /*top right bottom left*/
     max-width: 60rem;
-    min-width: 50rem;
+    min-width: 15rem;
     min-height: 100vh;
     margin: auto;
     padding-top: 4rem;
 }
 
-#ContactSection, #InfoSection, #ScoSection, #EmpStaSection, #CompSection, #LangSection{
-    padding: 2rem 5rem 2rem 5rem; /*top right bottom left*/
-    width: 15rem;
+.networkImages{
+    display: flex;
+    justify-content:space-between;
+    width: 5rem;
+    margin-left: 1rem;
     
 }
 
@@ -166,12 +168,61 @@ li{
     padding: 2rem 6rem 2rem 6rem;
 }
 
-.place{
-    font-style: italic;
+#ContactSection, #InfoSection, #ScoSection, #EmpStaSection{
+    padding: 2rem 3rem 2rem 3rem; /*top right bottom left*/
+    width: 20rem; 
+}
+#CompSection, #LangSection, #ProjSection{
+    padding: 2rem 1rem 2rem 1rem; /*top right bottom left*/ 
+    width: 15rem;
+
+}
+
+.projectElement{
+    padding-bottom: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color :rgb(59, 48, 48);
+}
+
+li a:hover{
+    color:rgb(212, 202, 192);
+    background-color: rgb(56, 28, 28);
+}
+
+.gitImage:hover{
+    border: 2px rgb(73, 25, 25) solid;
+    border-radius: 25rem;
+    padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+}
+
+.linkedinImage:hover{
+    border: 2px rgb(73, 25, 25) solid;
+    border-radius: 0.5rem;
+    padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+}
+
+h2 a:hover{
+    border: 2px rgb(73, 25, 25) solid;
+    border-radius: 25rem;
+    padding: 0.2rem 0.1rem 0rem 0.1rem;
 }
 
 .date{
-    font-weight: bold;
+    font-family: jenriv_titlingbold, Arial, Helvetica, sans-serif;
+    color : rgb(73, 25, 25);
+    font-size: 15px;
+}
+
+.title{
+    font-family: jenriv_titlinglight, Arial, Helvetica, sans-serif;
+    color : rgb(73, 25, 25);
+}
+
+.place{
+    font-style: italic;
 }
 
 footer{
@@ -179,5 +230,6 @@ footer{
     color: rgb(212, 202, 192);
     margin-top: auto;
     text-align: right;
+    padding: 1rem 2rem 1rem 2rem; /*top right bottom left*/
     
 }
