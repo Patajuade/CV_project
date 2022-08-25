@@ -50,7 +50,7 @@ table {
 /*-------------------------------------------------------------------------------------*/
 
 @font-face {
-    font-family: 'jenriv_titlingbold';
+    font-family: 'jenriv_bold';
     src: url('font/jenriv/JenrivTitling-Bold.otf') format('woff2'),
          url('font/jenriv/JenrivTitling-Bold.otf') format('woff');
          font-weight: normal;
@@ -58,17 +58,26 @@ table {
 
 }
 @font-face {
-    font-family: 'jenriv_titlinglight';
+    font-family: 'jenriv_lightitalic';
     src: url('font/jenriv/JenrivTitling-LightItalic.otf') format('woff2'),
          url('font/jenriv/JenrivTitling-LightItalic.otf') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
-    font-family: 'jenriv_titlingregular';
+    font-family: "jenriv_italic";
+    src: url('font/jenriv/JenrivTitling-Italic.otf');
+}
+
+@font-face {
+    font-family: 'jenriv_regular';
     src: url('font/jenriv/JenrivTitling-Regular.otf');
+}
+
+@font-face {
+    font-family: 'jenriv_light';
+    src: url('font/jenriv/JenrivTitling-Light.otf');
 }
 
 @font-face {
@@ -90,9 +99,20 @@ table {
     font-family: 'inconsolata';
     src: url('font/Inconsolata/Inconsolata.otf');
 }
+
 @font-face {
-    font-family: 'karla';
-    src: url('font/karla/Karla-Regular.ttf');
+    font-family: 'inconsolata_UltraExpandedExtraLight';
+    src: url('font/Inconsolata/Inconsolata-UltraExpandedExtraLight.ttf');
+}
+
+@font-face {
+    font-family: "inconsolata_";
+    src: url('font/Inconsolata/Inconsolata-UltraCondensedBold.ttf');
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('font/roboto/RobotoCondensed-Regular.ttf');
 }
 
 /*-------------------------------------------------------------------------------------*/
@@ -106,7 +126,6 @@ body{
 }
 
 header{
-    position: relative;
     background-color: rgb(35, 29, 36);
     color: rgb(212, 202, 192);
     display: flex;
@@ -118,7 +137,7 @@ header{
 }
 
 h2{
-    font-family: 'karla', Arial, Helvetica, sans-serif;
+    font-family: 'jenriv_italic', Arial, Helvetica, sans-serif;
     font-size: 30px;
     color : rgb(73, 25, 25);
     margin-bottom: 0.5rem;
@@ -126,7 +145,7 @@ h2{
 }
 
 h3{
-    font-family: 'karla', Arial, Helvetica, sans-serif;
+    font-family: 'jenriv_light', Arial, Helvetica, sans-serif;
     font-size: 20px;
     color : rgb(73, 25, 25);
     padding-top: 0.5rem;
@@ -145,25 +164,25 @@ li{
 }
 
 #name{
-    font-family: 'julius-sans', Arial, Helvetica, sans-serif;
+    font-family: 'jenriv_bold', Arial, Helvetica, sans-serif;
     text-align: center;
     color: rgb(212, 202, 192);
     font-size: 50px;
 }
 
 #whatIAm{
-    font-family: 'archivo-narrow', Arial, Helvetica, sans-serif;
+    font-family: 'inconsolata_UltraExpandedExtraLight', Arial, Helvetica, sans-serif;
     text-align: center;
     color: rgb(212, 202, 192);
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 2rem;
 }
 
 #whatISeek{
-    font-family: 'archivo-narrow', Arial, Helvetica, sans-serif;
+    font-family: 'inconsolata_', Arial, Helvetica, sans-serif;
     text-align: center;
-    color: rgb(212, 202, 192);
-    font-size: 20px;
+    color: rgb(120, 141, 118);
+    font-size: 35px;
 }
 
 #mainBox{
@@ -183,15 +202,15 @@ li{
 }
 
 .date{
-    font-family: 'karla', Arial, Helvetica, sans-serif;
+    font-family: 'jenriv_bold', Arial, Helvetica, sans-serif;
     color : rgb(73, 25, 25);
     font-size: 18px;
 }
 
 .title{
-    font-family: 'karla', Arial, Helvetica, sans-serif;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
     color : rgb(73, 25, 25);
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .place{
