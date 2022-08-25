@@ -225,14 +225,21 @@ li{
 #ContactSection, #InfoSection, #ScoSection, #EmpStaSection{
     padding: 1rem 3rem 1rem 3rem; /*top right bottom left*/
     width: 20rem;
-    border: 2px rgba(255, 255, 255, 0.150) solid;
-    margin: 1rem ;
-    border-radius: 0.5rem;
+
 }
 #CompSection, #LangSection, #ProjSection{
     padding: 1rem 1rem 2rem 1rem; /*top right bottom left*/ 
     width: 15rem;
+}
 
+.frame{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px rgba(255, 255, 255, 0.150) solid;
+    margin: 1rem ;
+    border-radius: 0.5rem;
+    max-width: 55rem;
 }
 
 .projectElement{
