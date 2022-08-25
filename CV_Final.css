@@ -77,6 +77,21 @@ table {
 }
 
 @font-face{
+    font-family: 'open-sans-light';
+    src: url('font/open-sans/OpenSans-Light.ttf');
+}
+
+@font-face{
+    font-family: 'open-sans-regular';
+    src: url('font/open-sans/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'open-sans-italic';
+    src: url('font/open-sans/OpenSans-Italic.ttf');
+}
+
+@font-face{
     font-family: 'montserrat-light';
     src:url('font/montserrat/Montserrat-Light.otf');
 }
@@ -91,11 +106,12 @@ table {
     src:url('font/montserrat/Montserrat-Regular.otf');
 }
 
+
 body{
     background: rgb(43, 43, 43) url("images/background.jpg") fixed no-repeat center;
     color : rgb(35, 29, 36);
     text-align: justify;
-    font-family: 'montserrat-light',Arial, Helvetica, sans-serif;
+    font-family: 'open-sans-regular' ,Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
 
@@ -121,7 +137,7 @@ h2{
 
 h3{
     font-family: 'jenriv_titlingregular', Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     color : rgb(73, 25, 25);
     padding-top: 0.5rem;
     border-top: 1px rgb(73, 25, 25) solid;
@@ -171,14 +187,6 @@ li{
     padding-top: 4rem;
 }
 
-.networkImages{
-    display: flex;
-    justify-content:space-between;
-    width: 5rem;
-    margin-left: 1rem;
-    
-}
-
 #AboutSection{
     padding: 2rem 6rem 2rem 6rem;
 }
@@ -207,28 +215,32 @@ li a:hover{
     background-color: rgb(56, 28, 28);
 }
 
-.gitImage:hover{
+h2 a img:hover{
     border: 2px rgb(73, 25, 25) solid;
-    border-radius: 25rem;
-    padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+    padding: 0.1rem;
 }
 
-.linkedinImage:hover{
-    border: 2px rgb(73, 25, 25) solid;
+#ContactSection h2 a span img{
     border-radius: 0.5rem;
-    padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+    width : 25px;
+    height: 25px;
+    margin-left: 0.5rem;
 }
 
-h2 a:hover{
-    border: 2px rgb(73, 25, 25) solid;
+#ProjSection h2 a span img{
     border-radius: 25rem;
-    padding: 0.2rem 0.1rem 0rem 0.1rem;
+    width : 25px;
+    margin-left: 0.5rem;
+}
+
+h2 a img{
+    box-sizing: border-box;
 }
 
 .date{
     font-family: 'jenriv_titlingbold', Arial, Helvetica, sans-serif;
     color : rgb(73, 25, 25);
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .title{
@@ -237,8 +249,8 @@ h2 a:hover{
 }
 
 .place{
-    font-family: 'montserrat_light_italic', Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-family: 'open-sans-italic', Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 
 footer{
